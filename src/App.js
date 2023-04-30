@@ -5,9 +5,9 @@ import MovieCard from './MovieCard';
 
 // This project was to learn how to use State, UseEffect, RESTful Web Service (OMDbAPI), Components, props, and if else statements in React.js
 
-// OMDb API key: 96dcc011
+// OMDb API key: 96dcc011 -- see .env file where this is defined
 
-const API_URL = 'http://www.omdbapi.com/?apikey=96dcc011'
+const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
 
 // const movie1 = {
 //   "Title": "Batman Returns",
