@@ -1,4 +1,6 @@
-# Movie App
+# React Movie App using OMDb API and Deployed using Netlify
+
+Click to see Deployed Website: https://react-movie-app-za.netlify.app/
 
 The movie app contains the following React features:
 * useState
