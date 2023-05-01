@@ -1,3 +1,28 @@
+# Movie App
+
+The movie app contains the following React features:
+* useState
+* useEffect
+* RESTful Web Service (OMDbAPI)
+* React Components
+* props
+* if-else statements
+
+The features of the Movie app include:
+* A search bar
+* A search image
+* MovieCard.jsx file which creates a MovieCard from one movie, and which uses props = {movie} along with movies and setMovies from useState. I mapped each movie from movies onto the MovieCard to create a movie card for each movie on the page. 
+
+Other Tech Stack (Netlify):
+* Netlify to deploy the websites
+* Setting environmental variables in Netlify and creating a .env file to store environmmental variable
+* package.json files with proper react scripts (add predeploy, deploy, build), homepage link (Netlify app URL must be in format "https://{branch-deployed}-{netlify-app-name}.netlify.app/"), and devDependencies like dotenv-webpack and gh-pages.
+* Creating a netlify.toml file so Netlify can handle everything that React handles locally as a Single Page Application
+* Create webpack.config.js file which imports dotenv-webpack and sets systemvars:true
+* Using https:// for the API_URL (to match the Netlify app URL which also starts with https://) to prevent errors in browser console
+* Played around with Firebase separately but it charged money to deploy so decided on Netlify. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
