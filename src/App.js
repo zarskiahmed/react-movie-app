@@ -7,7 +7,7 @@ import MovieCard from './MovieCard';
 
 // OMDb API key: 96dcc011 -- see .env file where this is defined
 
-const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+const API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
 
 // const movie1 = {
 //   "Title": "Batman Returns",
